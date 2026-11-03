@@ -6,7 +6,7 @@ void initList(intNode** head)
 	*head = nullptr;
 }
 
-void insert(intNode** head, int value)
+void insert(intNode** head, unsigned int value)
 {
 	intNode* newNode = new intNode();
 	newNode->data = value;

@@ -4,12 +4,12 @@
 #include <iostream>
 
 typedef struct intNode {
-    int data;
+    unsigned int data;
     intNode* next;
 } intNode;
 
 void initList(intNode** head);
-void insert(intNode** head, int value);
+void insert(intNode** head, unsigned int value);
 int remove(intNode** head);
 bool isEmpty(intNode** head);
 void freeList(intNode* head);;
